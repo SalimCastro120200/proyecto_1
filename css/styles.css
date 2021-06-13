@@ -1,14 +1,35 @@
-BODY {color:green }
-
-h1 {color:red; 
-   font-size:20px;
-   font-family:Courier;
-   font-weight:bold;
-   font-style:italic;
-   line-height:30px;
-   letter-spacing:5px;
-   text-decoration:underline;
-   text-transform:capitalize;
-   text-align:left;
-   text-indent:30px;
-  }
+body {
+   padding-left: 11em;
+   font-family: Georgia, "Times New Roman",
+         Times, serif;
+   color: purple;
+   background-color: #d8da3d }
+ ul.navbar {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+   position: absolute;
+   top: 2em;
+   left: 1em;
+   width: 9em }
+ h1 {
+   font-family: Helvetica, Geneva, Arial,
+         SunSans-Regular, sans-serif }
+ ul.navbar li {
+   background: white;
+   margin: 0.5em 0;
+   padding: 0.3em;
+   border-right: 1em solid black }
+ ul.navbar a {
+   text-decoration: none }
+ a:link {
+   color: blue }
+ a:visited {
+   color: purple }
+ address {
+   margin-top: 1em;
+   padding-top: 1em;
+   border-top: thin dotted }
+ p {
+   align-content: center;
+ }
